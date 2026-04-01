@@ -34,3 +34,6 @@ jobs:
 
       - name: Verify artifact was created
         run: ls -la target/*.war
+
+      - name: Run tests
+        run: mvn test
